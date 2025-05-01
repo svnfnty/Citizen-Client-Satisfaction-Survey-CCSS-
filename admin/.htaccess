@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+
+     # Set Access-Control-Allow-Origin header
+    Header set Access-Control-Allow-Origin "*"
+
+    # Rewrite requests to remove .php extension
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^([^\.]+)$ $1.php [NC,L]
+</IfModule>

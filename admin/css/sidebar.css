@@ -1,0 +1,95 @@
+/* CSS for sidebar */
+        .sidebar {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 250px;
+            height: 100%;
+            background-color: #333;
+            padding-top: 20px;
+        }
+
+        .sidebar h1 {
+            color: #fff;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #555; /* Add border to each list item */
+        }
+
+        .sidebar ul li:last-child {
+            border-bottom: none; /* Remove border from the last list item */
+        }
+
+        .sidebar ul li a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        .sidebar ul li a:hover {
+            background-color: #555;
+        }
+
+        .logo {
+            text-align: center; /* Center the logo horizontally */
+        }
+
+        .logo img {
+            width: 150px; /* Set the width of the logo */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Ensure proper spacing */
+            margin: 0 auto 0px; /* Center the logo vertically and add some space below */
+        }
+        
+/* CSS for content */
+.content {
+    margin-left: 250px; /* Adjust this value based on the width of the sidebar */
+}
+
+header {
+    background-color: #ddd;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content span {
+    margin-right: 20px;
+}
+
+.logout-btn {
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.logout-btn:hover {
+    background-color: #d32f2f;
+}
+
+
+.logo {
+    text-align: center; /* Center the logo horizontally */
+}
+
+.logo img {
+    width: 150px; /* Set the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper spacing */
+    margin: 0 auto 0px; /* Center the logo vertically and add some space below */
+}

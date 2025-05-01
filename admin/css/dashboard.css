@@ -1,0 +1,99 @@
+html,
+        body,
+        div,
+        input,
+        span,
+        a,
+        select,
+        textarea,
+        option,
+        h1,
+        h2,
+        h3,
+        h4,
+        main,
+        aside,
+        article,
+        section,
+        header,
+        p,
+        footer,
+        nav,
+        pre {
+            box-sizing: border-box;
+            font-family: Tahoma, Geneva, sans-serif;
+        }
+
+        html {
+            background: #f8f9f9 linear-gradient(0deg, #f8f9f9 0%, #f8f9f9 80%, #0803e3 80%, #0803e3 100%) no-repeat;
+            padding: 0px;
+            height: 100%;
+        }
+
+        input,
+        textarea,
+        select {
+            outline: 0;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 35px 25px 25px 25px;
+            font-size: 14px;
+            color: #6a737f;
+            font-weight: 600;
+        }
+
+        h1 i {
+            padding-right: 130px;
+            font-size: 24px;
+        }
+
+        
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .2);
+        }
+
+        .welcome-message {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+        }
+
+        .logout-btn {
+            display: block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #e74c3c;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .logout-btn:hover {
+            background-color: #c0392b;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
