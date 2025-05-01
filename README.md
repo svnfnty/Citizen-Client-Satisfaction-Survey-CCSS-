@@ -60,4 +60,4 @@ We welcome contributions! To contribute:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Author
-This project was originally created by [Your Name].
+This project was originally created by Svnfnty.
