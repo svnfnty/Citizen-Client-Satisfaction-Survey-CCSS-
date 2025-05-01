@@ -11,6 +11,7 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Author](#author)
 
 ## Description
 This project is part of the CCSS system. It provides functionality for managing and processing data efficiently.
@@ -57,3 +58,6 @@ We welcome contributions! To contribute:
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Author
+This project was originally created by [Your Name].
