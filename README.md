@@ -1,7 +1,25 @@
 # CCSS Project
 
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Version](https://img.shields.io/badge/version-1.0.0-green)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Description
 This project is part of the CCSS system. It provides functionality for managing and processing data efficiently.
+
+## Features
+- Easy-to-use interface
+- High performance and scalability
+- Modular and maintainable codebase
+- Compatible with multiple platforms
 
 ## Installation
 1. Clone the repository:
@@ -12,13 +30,30 @@ This project is part of the CCSS system. It provides functionality for managing 
    ```bash
    cd CCSS
    ```
-3. Install dependencies (if applicable).
+3. Install dependencies (if applicable):
+   ```bash
+   npm install
+   ```
 
 ## Usage
-Run the application using your preferred local server (e.g., XAMPP).
+Run the application using your preferred local server (e.g., XAMPP) or start the development server:
+```bash
+npm start
+```
 
 ## Contributing
-Feel free to contribute by submitting issues or pull requests.
+We welcome contributions! To contribute:
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes and push the branch:
+   ```bash
+   git commit -m "Add feature-name"
+   git push origin feature-name
+   ```
+4. Open a pull request.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
